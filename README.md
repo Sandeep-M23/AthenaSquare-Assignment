@@ -1,38 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AthenaSquare Assignment
+An Replica of Kula.ai website using NextJS and Sass as as Assignment for [AthenaSquare](https://athenasquare.org/).
 
-## Getting Started
+## Task 
 
-First, run the development server:
+In this assignment, you have to create a ReactJS-based web page, in which you will be replicating the section as displayed in the video clip from the official website of kula.ai, which you will find attached in the mail.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+You just need to create a section of the website as shown in the below image and also shown in the video. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your website should look exactly like this, with just one section, and when we scroll on this action, animation happens. Please see the kula.ai website for more details.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**Task Section URL -** assignment-kula-ai.mp4
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Note: If the video doesn’t play in the browser, download it and play it locally.**
 
-## Learn More
+You have to replicate the experience, animation, and design as shown in the video. You can assume the dimensions for the design and components inside it 
+yourself. You just need to build this specific website section as shown in the sample task video.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ ## Instructions to be followed strictly:
+ 
+1. As you can see clearly in the video. We have text on the left side of the section shown in the image and video. So we are sharing the API for getting the text and you need to replace the text you will get from the API. In other terms, you need to integrate API to get the text shown in the task video.
+Text API -https://mocki.io/v1/ee762599-31ae-4a3d-a6c7-d596525945e1
 
-## Deploy on Vercel
+2. The right section of the video is an animation consisting of 3 videos. So here we are sharing the link to all three videos that you have to use to create that animation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Videos Link -** 
+1. https://global-uploads.webflow.com/62efc7cb58ad153bfb146988/6341303c29c5340961dc9ae6_Mco-1-transcode.mp4
+2. https://global-uploads.webflow.com/62efc7cb58ad153bfb146988/63413ff244f1dc616b7148a0_Mco-transcode.mp4
+3. https://global-uploads.webflow.com/62efc7cb58ad153bfb146988/63455a67996ba248148c4e31_add-options%20(3)-transcode.mp4
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+ ## Additional Points: 
+ Brownie points to the developer for the following:
+- Using NextJS instead of ReactJS
+- Using SASS instead of CSS
+- For responsive design and a seamless experience
+
+
