@@ -1,0 +1,172 @@
+$primaryTextColor : '#000';
+$secondaryTextColor : #4d4d4d;
+
+/* Home Section */
+.home {
+  padding: 25px 75px;
+}
+/* Intro Section */
+.introSection {
+  padding: 7rem;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & .introTitle {
+    font-size: 5.3rem;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  & .introText {
+    color: $secondaryTextColor;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  & .viewButton {
+    color: $primaryTextColor;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: center;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: #e3e5ea;
+    border: none;
+  }
+}
+/* Main Section */
+.mainSection {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  position: relative;
+}
+
+/*Extra Section*/
+.extraSection {
+  height: 30vh;
+}
+
+/* Text Container */
+.textContainer {
+  width: 40%;
+  section {
+    height: calc(100vh - 250px);
+    padding-top: 4rem;
+    width: 100%;
+    & .sectionTitle {
+      font-size: 1.4rem;
+      font-weight: 700;
+      background: linear-gradient(60deg, #ff3a7c, #741eff);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 5px;
+    }
+    & .sectionSubTitle {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+    & .sectionDescription {
+      color: $secondaryTextColor;
+      font-size: 1.125rem;
+    }
+  }
+}
+/* Video Container */
+.videoContainer {
+  border-radius: 50px;
+  height: 475px;
+  right: 5rem;
+  top: 9rem;
+  width: 50%;
+  overflow: hidden;
+  position: sticky;
+  & .mainVideo {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+.mobileVideoContainer {
+  & .mobileVideo {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .introSection {
+    padding: 7rem 2rem;
+    margin: 50px 25px;
+    & .introTitle {
+      font-size: 4.5rem;
+    }
+
+    & .introText {
+      font-size: 1rem;
+    }
+
+    & .viewButton {
+      font-size: 0.8rem;
+    }
+  }
+
+  .textContainer {
+    padding: 2rem 1rem 1rem;
+    width: 100%;
+    & section {
+      height: auto;
+    }
+    & .sectionSubTitle {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  .videoContainer {
+    display: none;
+  }
+
+  .sectionHeading {
+    margin-bottom: 2rem !important;
+  }
+
+  .mobileVideoContainer {
+    border-radius: 50px;
+    display: flex;
+    height: 450px;
+    overflow: hidden;
+    & .mobileVideo {
+      display: block;
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 475px) {
+  .home {
+    padding: 10px;
+  }
+
+  .introSection {
+    padding: 7rem 0rem;
+    margin: 75px 25px;
+    & .introTitle {
+      font-size: 4rem;
+    }
+  }
+
+  .mainSection {
+    padding: 1rem;
+  }
+
+  .mobileVideoContainer {
+    height: 300px;
+  }
+}

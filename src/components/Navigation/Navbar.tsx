@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import classes from "../../styles/Navigation.module.css";
+import classes from "../../styles/Navigation.module.scss";
 import Logo from "../Logo/Logo";
 import {CgChevronDown} from 'react-icons/cg';
 import {RxHamburgerMenu} from 'react-icons/rx';

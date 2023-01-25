@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import classes from '../../styles/Logo.module.css';
+import classes from '../../styles/Logo.module.scss';
 
 const Logo: FC = () => {
   return (
